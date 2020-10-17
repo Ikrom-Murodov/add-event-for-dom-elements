@@ -12,7 +12,7 @@ function capitalize(value: string): string {
  * Interface for class parameter DomListener.
  * @interface
  */
-export interface IDomParams {
+interface IDomParams {
   element: HTMLElement;
   eventNames: Array<keyof GlobalEventHandlersEventMap>;
 }
